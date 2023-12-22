@@ -1,0 +1,27 @@
+/* Navbar.css */
+nav {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px; /* Padding around the navbar */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+ display: flex; /* Display list items in a row */
+ justify-content: center;
+}
+
+li {
+  margin-right: 20px; /* Adjust spacing between navbar items */
+}
+
+a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Text color for navbar items */
+  font-weight: bold; /* Make text bold */
+}
+
+a:hover {
+  color: #ffcc00; /* Text color when hovering over a navbar item */
+}
