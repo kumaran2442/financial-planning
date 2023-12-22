@@ -281,6 +281,9 @@ function InputForm() {
         {/** create a load button in the top right of this div and on click of load, load the topFields and goals object from local storage**/}
         {/** create a reset button in the top right of this div and on click of reset, reset the topFields and goals object to default values**/}
         {/* Save button */}
+        <p style={{ color: "red", fontSize: "14px", display: "flex" }}>
+          &#x2139; change the Inflation Rate according to Your Expectation
+        </p>
         <div className="display-flex">
           <button
             data-tooltip-id="save-tooltip"
@@ -512,6 +515,7 @@ function InputForm() {
                     <input
                       type="text"
                       name="goal"
+                      autoComplete="off"
                       value={goal.goal}
                       onChange={(event) => handleInputChange(event, index)}
                       placeholder="Goal"
